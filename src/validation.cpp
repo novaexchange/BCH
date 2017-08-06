@@ -1186,7 +1186,7 @@ void CheckForkWarningConditions() {
                       "longer than our best chain.\nChain state database "
                       "corruption likely.\n",
                       __func__);
-            SetfLargeWorkInvalidChainFound(true);
+            SetfLargeWorkInvalidChainFound(false);
         }
     } else {
         SetfLargeWorkForkFound(false);
